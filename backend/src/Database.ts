@@ -28,7 +28,7 @@ export class Database {
     await Database.Seed();
   }
   static async Seed() {
-    let data: any = {"PurchaseLink":[{"link":"link 1","id":83},{"link":"link 2","id":56},{"link":"link 3","id":25},{"link":"link 4","id":5},{"link":"link 5","id":94}],"Videos":[{"videoLink":"videoLink 1","id":65},{"videoLink":"videoLink 2","id":41},{"videoLink":"videoLink 3","id":70},{"videoLink":"videoLink 4","id":15},{"videoLink":"videoLink 5","id":59}],"NFLStars":[{"imageLink":"imageLink 1","id":90},{"imageLink":"imageLink 2","id":26},{"imageLink":"imageLink 3","id":41},{"imageLink":"imageLink 4","id":53},{"imageLink":"imageLink 5","id":69}]};
+    let data: any = {"PurchaseLink":[{"link":"link 1","id":42},{"link":"link 2","id":65},{"link":"link 3","id":78},{"link":"link 4","id":66},{"link":"link 5","id":57}],"Videos":[{"videoLink":"videoLink 1","id":95},{"videoLink":"videoLink 2","id":36},{"videoLink":"videoLink 3","id":99},{"videoLink":"videoLink 4","id":17},{"videoLink":"videoLink 5","id":14}],"NFLStars":[{"imageLink":"imageLink 1","id":49},{"imageLink":"imageLink 2","id":35},{"imageLink":"imageLink 3","id":77},{"imageLink":"imageLink 4","id":0},{"imageLink":"imageLink 5","id":13}]};
     //Autogenerate multiple such calls ie for each resource and its data object
     let isSeeded = await this.IsSeeded();
     //if (!isSeeded) {
